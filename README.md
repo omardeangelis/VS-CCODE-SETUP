@@ -1,10 +1,10 @@
-﻿# VS-CCODE-SETUP
+﻿# VS-CODE-SETUP
 
 Qui trovate la configurazione di default del mio editor
 
-Sono presente tutti le estensioni che utilizzo ed un file json contente il settings.json file del mio Visual Studio Code
+Sono presenti tutte le estensioni che utilizzo ed un file json contente il settings.json file del mio Visual Studio Code
 
-## Estenzioni
+## Estensioni
 
 <img width="704" alt="extension1" src="https://user-images.githubusercontent.com/63757250/119114271-4be8be80-ba26-11eb-9b97-23b46177b098.png">
 
