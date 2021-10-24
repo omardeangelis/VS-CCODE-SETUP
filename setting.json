@@ -8,10 +8,30 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.jsxSingleQuote": true,
+  "prettier.quoteProps": "preserve",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.format.enable": true,
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
-  "window.zoomLevel": 2,
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "gitlens.advanced.messages": {
+    "suppressImproperWorkspaceCasingWarning": true
+  },
+  "window.zoomLevel": -1
 }
