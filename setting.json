@@ -1,12 +1,15 @@
 {
   "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "files.autoSave": "off",
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
   "terminal.integrated.fontSize": 18,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "prettier.jsxSingleQuote": true,
   "prettier.quoteProps": "preserve",
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -16,6 +19,7 @@
   "editor.cursorBlinking": "expand",
   "workbench.colorTheme": "Dracula",
   "editor.fontLigatures": true,
+  "files.eol": "\n",
   "editor.fontWeight": "500",
   "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "liveServer.settings.donotVerifyTags": true,
@@ -33,5 +37,18 @@
   "gitlens.advanced.messages": {
     "suppressImproperWorkspaceCasingWarning": true
   },
-  "window.zoomLevel": -1
+  "php.validate.executablePath": null,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
