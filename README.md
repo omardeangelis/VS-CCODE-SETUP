@@ -2,6 +2,9 @@
 
 Qui trovate la configurazione di default del mio editor
 
+Nella Branch `main` trovate la configurazione per i corsi
+In [up-to-date](https://github.com/omardeangelis/VS-CCODE-SETUP/tree/up-to-date) trovate le mia configurazione personale.
+
 Sono presenti tutte le estensioni che utilizzo ed un file json contente il settings.json file del mio Visual Studio Code
 
 ## Estensioni
