@@ -1,107 +1,95 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "files.autoSave": "off",
-  "editor.wordWrap": "off",
-  "editor.fontSize": 18,
-  "terminal.integrated.fontSize": 18,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "prettier.jsxSingleQuote": false,
-  "prettier.quoteProps": "preserve",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "eslint.format.enable": true,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": false,
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.showSuggestionsAsSnippets": true,
-  "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Dracula Soft",
-  "editor.fontLigatures": true,
-  "prettier.semi": true,
-  "prettier.trailingComma": "es5",
-  "files.eol": "\n",
-  "editor.fontWeight": "500",
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
-  "eslint.validate": [
-    "typescript"
-  ],
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[dart]": {
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "files.autoSave": "off",
+    "editor.wordWrap": "off",
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [
-      100
+    "prettier.jsxSingleQuote": false,
+    "prettier.quoteProps": "preserve",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.fontLigatures": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "es5",
+    "files.eol": "\n",
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "eslint.validate": [
+        "typescript"
     ],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "git.confirmSync": false,
-  "[postcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.associations": {
-    "*.css": "css"
-  },
-  "editor.inlineSuggest.enabled": true,
-  "editor.unicodeHighlight.allowedLocales": {
-    "it": true
-  },
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js, ${capture}.typegen.ts, ${capture}.typegen.ts",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts, ${capture}.typegen.ts, ${capture}.typegen.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
-    "*.mts": "${capture}.typegen.ts, ${capture}.typegen.ts",
-    "*.cts": "${capture}.typegen.ts, ${capture}.typegen.ts"
-  },
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[tailwindcss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.openRepositoryInParentFolders": "never",
-  "prisma.showPrismaDataPlatformNotification": false,
-  "github.copilot.editor.enableAutoCompletions": true,
-  "window.zoomLevel": -1
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "git.confirmSync": false,
+    "[postcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.css": "css"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.unicodeHighlight.allowedLocales": {
+        "it": true
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js, ${capture}.typegen.ts, ${capture}.typegen.ts",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts, ${capture}.typegen.ts, ${capture}.typegen.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+        "*.mts": "${capture}.typegen.ts, ${capture}.typegen.ts",
+        "*.cts": "${capture}.typegen.ts, ${capture}.typegen.ts"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "github-actions.use-enterprise": true,
+    "workbench.sideBar.location": "right",
+    "window.zoomLevel": -2,
+    "githubPullRequests.pullBranch": "never",
+    "eslint.lintTask.enable": true,
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
